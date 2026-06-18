@@ -1,0 +1,13 @@
+<h3>{{ mititulo }}</h3>
+<hr />
+<br />
+
+<ul>
+    {% for e in estudiantes %}
+
+    <li>{{e.id}} - {{e.nombre}} - Telefonos: {{e.obtenerCantidadTelef}}</li>
+
+    {% endfor %}
+</ul>
+
+<hr />
